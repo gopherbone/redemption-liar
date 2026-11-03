@@ -1,0 +1,9 @@
+[package]
+name = "liar-install"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0-or-later"
+
+[[bin]]
+name = "liar-install"
+path = "src/main.rs"

@@ -1,0 +1,10 @@
+result
+result-*
+target/
+# Game files and firmware never go in this repository.
+*.gpe
+*.dat
+*.inx
+*.sav
+*.img
+Liar_e/
