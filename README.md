@@ -40,10 +40,8 @@ Add the entry to your system with this flake's module, next to Mortar's core:
 The entry appears under Games once the files are there. Other nixpkgs configurations
 must allow the unfree package name `liar` (the module does it through `mortar.unfree`).
 
-`flake.nix` points at `github:gopherbone/mortar`. That needs Mortar's layered flake
-(`lib.mkSystem`, `mortar.user.home`) to be on GitHub. Until then, or to use a local
-checkout, add `--override-input mortar path:../mortar` to each command. No
-`flake.lock` is committed yet, for the same reason.
+`flake.nix` points at `github:gopherbone/mortar`. To use a local checkout instead, add
+`--override-input mortar git+file:///path/to/mortar` to each command.
 
 ## Controls
 

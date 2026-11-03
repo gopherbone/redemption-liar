@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "mortar": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1793669600,
+        "narHash": "sha256-NrfCAwXZ9S/4g4SqmH3DPGhc1ykf1V02HbrEGpemxnA=",
+        "owner": "gopherbone",
+        "repo": "mortar",
+        "rev": "c276af80f458cb9f9eeb616d2d455fc73fe51819",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gopherbone",
+        "repo": "mortar",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1793341285,
+        "narHash": "sha256-Y1CiZ4SoBUjLQyQM/pY+rS2dXD3CHLPstF0lmOc73D4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1c89083e451e891152365b799595cf7790a43325",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "mortar": "mortar"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
